@@ -8,7 +8,7 @@ numpy
 pandas and etc.
 
 ## Some attempts
-- [ ] Cosine and SWA(not try)
+- [ ] CosineAnnealingLR and SWA(not try)
 - [x] model selection:VggUnet, traditional Unet, ResNetUnet
 - [x] Loss selection:
       BCE+focal_loss worse than the Lovasz_loss
@@ -21,7 +21,7 @@ pandas and etc.
 ### Training Steps
 First, we train the resnet32 and without SCSE using the BCE+L_loss and set the 5-fold. And then train the model with the SCSE module 2 times. Last we fuse the first five fold andt the SCSE fold with the TTA get the Public LB 0.843, which in the final score is 0.860. The hyperparameter is in the code.Limited by the time, we could not try many tricks.
 
-## How to start our code
+## How to start
 Train:
 - > python main_5folder.py
 
