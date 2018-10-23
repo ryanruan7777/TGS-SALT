@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Oct 14 15:32:41 2018
-
-@author: Ryan
+reference:https://github.com/tsterbak/keras_tta
+created by:tsterbak
 """
 import numpy as np
 
